@@ -11,7 +11,7 @@ function dailyLog170() {
     0
   );
 
-  const completedTotal = tasks.reduc(
+  const completedTotal = tasks.reduce(
     (sum, task) => sum + task.completed,
     0
   );
